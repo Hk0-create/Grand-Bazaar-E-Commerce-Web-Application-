@@ -1,0 +1,53 @@
+.loader-logo-wrap {
+  position: relative;
+  z-index: 2;
+}
+
+.loader-logo-wrap img {
+  width: 140px;
+  height: auto;
+  filter: drop-shadow(0 0 30px rgba(201, 168, 76, 0.4));
+}
+
+.loader-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  z-index: 2;
+}
+
+.loader-brand {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+}
+
+.loader-tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #C9A84C;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.loader-particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-particle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #C9A84C;
+  bottom: 45%;
+}

@@ -1,0 +1,21 @@
+/* Products page filter button */
+.filter-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  transition: all 0.2s ease;
+}
+.filter-btn:hover { background: var(--gray-100); color: var(--navy); }
+.filter-btn.active { background: rgba(13,27,62,0.08); color: var(--navy); border-color: var(--navy); font-weight: 600; }
+
+.products-sidebar { width: 240px; flex-shrink: 0; }
+
+/* Helpers */
+.products-page .container { padding-top: 0 !important; }

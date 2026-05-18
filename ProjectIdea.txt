@@ -1,0 +1,59 @@
+I want to create a project of ecomerce website named "Grand Bazaar"
+Goal :
+Basically whats my goal create a end to end website production level 
+
+Step 1 
+Details Regarding Feature :
+
+Three categoory of Users 
+1) users that came for buy product 
+2) admin who adds products , delete product and update product choose and create category , add product detail quantity color etc 
+3) Super admin who caan see trend like best selling product , sells graph , have access to block admin and user and product 
+
+detail regarding roles 
+
+1) Users 
+User Can come to website get signup and login google authentication and manual signup and login also avaliable 
+before sign up he can see cart of our product category and products ,and also to see all product need to signup or login  but cant able to access product detail if he/she is not aithenticated 
+
+a) After authenticated user can see detailed product , He / she can see detail of product like in product detail can see product images , can select size color , and quantity 
+then can click on add to cart on navbar it instantly update on navbar cart button must increase a quantity to one on clicking on add to cart button one new button appear 
+Continue which redirect to addd to cart page where he/she see  product detail like quantity option  he / she selected and then see a edit button where he can edit and delete
+product from add to cart page then a continue shopping button shoes where redirect to payment page where he can add address and his detail there will be two payment method 
+strip and COD(Cash on dilevery) after confirm he see a page of Thanks for shopping and redirect order tracking page where he/she can see order status related Details ,
+if status change to reider arrived a chatbox is visible at that page where he/she can chat with rider  
+after successfully getting product when ad,in change status  to delieverd a screen will apper where user have to review and comment regarding product thats compulsory  also can give review to rider compulsory
+
+
+Admin :
+we have a seprate login and signup page for admin when admin signup its request sent to super admin super admin approve it and then admin can login 
+when admin get login he can see a dashboard page , orders page , review page ,add product , products page , riders page , Top buyers page 
+On admin dashoard admin can see current on going orders total numbers , total products , top product , top buyers , Best riders etc 
+on Add product page admin can add product like product name product category (can select category or add new category) can add images , description text , rice quantity ,color etc , cost price and selling price is must ,delivery charges 
+on submitting product , product send for super admin approval , after approval product  can be seen in our website dynaically from database , in product page admin can see prduvt where admin can edit delete or add dicount on product 
+
+on rider page admin can assign a order to rider and can accept rider signup request , rider perfomance and reviews etc 
+
+Rider : 
+rider signup and login page is seprate rider signup request send to admin , then after approval can login after login can see page where a delivery task is assign to him see a chat page where can realtime 
+chat with buyer also a review page where can see reviews 
+
+Super Admin 
+super admin have a login page where he can login with these credits superadmingmail.com , sueradmin123
+super admin have a dashboard page where he see total sells , Top user , approval request , total profit etc have access to diable 
+
+
+Technicall :
+
+first after reading whole flow 
+whats you need to do craete a high quality production level folder structure tech stack is mern stack , react for frontend nodejs , express js mongodb for backend stripe , oauth for locall not production 
+
+after creatingg folder before creating files you have to let me know what detail you need in .env file so when i add it you will srtart creating backend and frontend pages 
+and craete a phase wise plan on each phase we will tets it then move to next phase like authentication is phase 1 etc 
+Also when there is no product  in website static images dummy cart is shown when product is added then that dynamic product will shown 
+whole logic must be working 
+also ui is clear and production level highly animated all pages is clear and beautifull ui with 100% responsivess please make sure no issue regarding ui can add any ui animation libraries 
+you are free to add any libraries 
+
+
+

@@ -1,0 +1,53 @@
+.footer {
+  background: linear-gradient(180deg, #0D1B3E 0%, #080f24 100%);
+  color: rgba(255,255,255,0.75);
+  position: relative;
+  padding-top: 80px;
+  overflow: hidden;
+}
+
+.footer-wave {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold), var(--gold-light), var(--gold));
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 48px;
+  padding-bottom: 48px;
+}
+
+@media (max-width: 1024px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; } }
+@media (max-width: 640px) { .footer-grid { grid-template-columns: 1fr; } }
+
+.footer-logo { height: 56px; width: auto; margin-bottom: 16px; filter: drop-shadow(0 0 16px rgba(201,168,76,0.3)); }
+
+.footer-desc { font-size: 0.9rem; line-height: 1.7; color: rgba(255,255,255,0.55); margin-bottom: 20px; }
+
+.footer-socials { display: flex; gap: 10px; }
+
+.social-btn {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.7);
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+.social-btn:hover { background: rgba(201,168,76,0.2); border-color: rgba(201,168,76,0.4); color: #C9A84C; }
+
+.footer-col h4 { color: white; font-size: 1rem; font-weight: 700; margin-bottom: 16px; position: relative; padding-bottom: 10px; }
+.footer-col h4::after { content: ''; position: absolute; bottom: 0; left: 0; width: 32px; height: 2px; background: #C9A84C; border-radius: 9999px; }
+
+.footer-col ul { display: flex; flex-direction: column; gap: 10px; }
+.footer-col ul li a, .footer-col ul li { font-size: 0.9rem; color: rgba(255,255,255,0.55); transition: color 0.2s; cursor: pointer; }
+.footer-col ul li a:hover { color: #C9A84C; }
+
+.footer-contact li { display: flex; align-items: center; gap: 10px; font-size: 0.9rem; }
+
+.footer-bottom { padding-bottom: 28px; text-align: center; color: rgba(255,255,255,0.4); font-size: 0.85rem; }
